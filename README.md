@@ -13,3 +13,7 @@ Run with: `npm run start`
 Units tests: `npm test`
 
 E2E tests: `npm run cypress:open`
+
+The following commands may be needed to help run:
+`npm i -D postcss postcss-cli`
+`export NODE_OPTIONS=--openssl-legacy-provider`

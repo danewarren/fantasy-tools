@@ -62,6 +62,7 @@ const StandingsForm = ({ isAuthenticated, onSubmit, leagues, loading }) => {
                         </MenuItem>
                       );
                     }
+                    return null;
                   })}
                 </TextField>
                 <TextField
@@ -82,8 +83,8 @@ const StandingsForm = ({ isAuthenticated, onSubmit, leagues, loading }) => {
                   margin="normal"
                   variant="outlined"
                 >
-                  <MenuItem key={2019} value={2019}>
-                    2019
+                  <MenuItem key={2023} value={2023}>
+                    2023
                   </MenuItem>
                   <MenuItem key={2018} value={2018}>
                     2018
